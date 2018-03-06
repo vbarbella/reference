@@ -1,0 +1,17 @@
+Cloning from a Repository:
+
+cd ~/Desktop/[file-folder-name]
+
+git clone [http://url-of-the-repo-to-clone]
+
+Uploading to GitHub:
+
+cd ~/Desktop/[file-folder-name]
+
+git add .
+
+git commit -m "[name and description of the project or files]"
+
+git remote set-url origin [http://url-of-the-repo-on-github]
+
+git push origin master
